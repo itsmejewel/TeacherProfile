@@ -199,8 +199,10 @@ a:visited {
 }
 
 #offcanvasScrolling {
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.563);
+    background-color: transparent;
+/*     background-color: rgba(255, 255, 255, 0.563); */
 }
 
 .coursefee-sub-title {
