@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.landing-page-background {
+    /* background-image: url('https://i.pinimg.com/564x/4f/be/8e/4fbe8e818c449587d591359ac892cba2.jpg'); */
+    background-image: url('https://i.pinimg.com/564x/f5/fc/05/f5fc05a1752b93d707ba2bf560e4e591.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing-page-main-title {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(65, 64, 64);
+    font-size: 5vw;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+
+@media (max-width: 912px) {
+    .landing-page-main-title {
+        font-size: 10vw;
+    }
+    
+}
+
+
+.landing-page-name-title {
+    font-family: 'Space Grotesk', sans-serif;
+    padding-left: 7vh;
+    padding-top: 2vh;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.08em;
+    font-weight: lighter;
+}
+
+.dividing-line {
+
+}
+
+.secondary-title-heading {
+    font-family: 'Space Grotesk', sans-serif;
+    padding-left: 5vh;
+    font-size: 3vw;
+    font-weight: light;
+}
+
+@media (max-width: 912px) {
+    .secondary-title-heading {
+        font-size: 8vw;
+    }
+    
+}
+
+
+a:link {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 3vh;
+    text-decoration: none;
+    transition: font-size 0.3s;
+}
+
+a:hover {
+    font-size: 3.5vh;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+@media (max-width: 912px) {
+    a:link {
+        font-size: 2vh;
+    }
+    
+}
+
+/* QUALIFICATIONS */
+.qualifications-background {
+    /* background-image: url('https://i.pinimg.com/564x/8d/b4/3f/8db43ff03f3f397587a4b3728ba2685c.jpg'); */
+    background-image: url('https://i.pinimg.com/564x/47/8b/42/478b4212f351d193ca03f4bfb7294d88.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teaching-background {
+    background-image: url('https://i.pinimg.com/564x/1e/f0/c9/1ef0c96aa64e124d383689646f04e77a.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.outline-background {
+    background-image: url('./images/courseoulinebg.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.duration-background {
+    background-image: url('https://i.pinimg.com/564x/6c/42/61/6c42612ca21bb22b746a5e2c6f217b75.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fees-background {
+    background-image: url('https://i.pinimg.com/564x/9d/1c/01/9d1c0132bec008d603fff1ded29d45d9.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.misc-background {
+    background-image: url('https://i.pinimg.com/564x/65/2b/61/652b6174d3aa93c2e9f2daafa1a5f1e0.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay-blur {
+    backdrop-filter: blur(6px);
+    min-height: 80vh;
+    width: 80%;
+}
+
+.specifications-title-heading {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 0.1em;
+    font-size: 3vw;
+    color: rgb(45, 44, 44);
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    .specifications-title-heading {
+        font-size: 6vw;
+    }
+    
+}
+
+.specifications-div {
+    margin-left: 3vh;
+    padding-top: 10vw;
+}
+
+.specifications-details {
+    font-family: 'Space Grotesk', sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 3vh;
+
+}
+
+@media (max-width: 768px) {
+    .specifications-details {
+        font-size: 2vh;
+    }
+}
+
+.btn {
+    border: 1px rgb(45, 44, 44);
+    background-color: transparent;
+    color: rgb(45, 44, 44);
+    border-radius: 1em;
+    transition: font-size 0.3s;
+}
+
+.btn:hover {
+    font-size: 4vh;
+}
+
+#offcanvasScrolling {
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}
+
+.coursefee-sub-title {
+    font-family: 'Unbounded', cursive;
+    letter-spacing: 0.1em;
+    font-size: 2vw;
+    color: rgb(45, 44, 44);
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    .coursefee-sub-title {
+        font-size: 4vw;
+    }
+    
+}
+
+/* GSAP */
+.first-tl {
+    opacity: 0;
+}
+
+.sec-tl {
+    opacity: 0;
+}
+
+.third-tl {
+    opacity: 0;
+}
+
+.specs1-tl, .specs2-tl, .specs3-tl, .specs4-tl, .specs5-tl, .specs6-tl, .specs7-tl {
+    opacity: 0;
+}
