@@ -146,6 +146,15 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+.contact-background {
+    background-image: url('https://i.pinimg.com/564x/20/be/a7/20bea7a917a43b11f1f5f994e00b833e.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .overlay-blur {
     backdrop-filter: blur(6px);
     min-height: 80vh;
@@ -199,10 +208,8 @@ a:visited {
 }
 
 #offcanvasScrolling {
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: transparent;
-/*     background-color: rgba(255, 255, 255, 0.563); */
+    background-color: rgba(255, 255, 255, 0.563);
 }
 
 .coursefee-sub-title {
@@ -233,6 +240,9 @@ a:visited {
     opacity: 0;
 }
 
+.fourth-tl {
+    opacity: 0;
+}
 .specs1-tl, .specs2-tl, .specs3-tl, .specs4-tl, .specs5-tl, .specs6-tl, .specs7-tl {
     opacity: 0;
 }
